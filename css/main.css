@@ -171,12 +171,8 @@ section {
   padding-bottom: 1rem;
 }
 
-.section .featured-stories {
+.section .featured-story {
   padding: 0.5rem;
-}
-
-.section .image {
-  position: relative;
 }
 
 .section .category {
@@ -358,4 +354,41 @@ section {
 
 .feature-content {
   margin-bottom: 1.5rem;
+}
+
+.featured-story .image,
+.featured-stories .image {
+  position: relative;
+}
+
+.featured-stories .image {
+  height: 13.875rem;
+}
+
+.info .category {
+  color: #3581f4;
+}
+
+.info .border {
+  padding: 1.25rem 2rem 1.25rem 1.25rem;
+}
+
+/* Culture Travel */
+.culture-story {
+  padding: 0.5rem 0;
+}
+
+.culture-travel {
+  background-color: #f4f5f7;
+  margin-bottom: 20px;
+}
+
+.culture-items {
+  padding: 0;
+}
+
+.culture-item img {
+  height: 10.165rem;
+  object-fit: cover;
+
 }

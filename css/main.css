@@ -830,3 +830,21 @@ header.bordered {
     height: 80px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  /* Main Content */
+
+  .featured-story .image,
+  .featured-stories .image,
+  .featured-stories img {
+    height: 20rem;
+  }
+
+  .section-five .aside img {
+    height: 180px;
+  }
+
+  .magazine {
+    margin-top: 2rem;
+  }
+}

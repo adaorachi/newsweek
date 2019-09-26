@@ -657,3 +657,81 @@ header.bordered {
 .aside .bordered .list-item:not(:first-child) {
   padding-top: 0.3rem;
 }
+
+/* Subscribe-Newsletter Section */
+
+.subscribe-news::before {
+  content: "";
+  display: block;
+  background-color: #f4f5f6;
+  height: 2px;
+  margin: 2rem 0;
+}
+
+.subscribe-news h2 {
+  color: #f72210;
+}
+
+.subscribe-news .content {
+  padding: 30px;
+  background-color: #f4f5f6;
+}
+
+.subscribe-news .content-small .info {
+  padding: 30px;
+  border: 1px solid #ebebeb;
+  height: calc(228px + (30px * 2));
+}
+
+.subscribe-news .image-thumb {
+  width: 170px;
+  height: 228px;
+}
+
+.subscribe-news .image-thumb.front {
+  position: absolute;
+  top: 13px;
+  left: 80px;
+}
+
+.subscribe-news .image-thumb .image-sm {
+  background: url('https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png') center center / cover no-repeat;
+  height: calc(228px + (30px * 2));
+  object-fit: cover;
+}
+
+.subscribe-news .content .image {
+  flex: auto;
+  position: relative;
+  padding-right: 90px;
+}
+
+.subscribe-news .content .info {
+  flex: auto;
+  padding-left: 30px;
+}
+
+.subscribe-news .info h4 {
+  line-height: 28px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #000;
+}
+
+.subscribe-news .info p {
+  font-family: Helvetica, sans-serif;
+  margin: 0.5rem 0;
+}
+
+.subscribe-news .info a {
+  background-color: #f72210;
+  color: #fff;
+  padding: 0.2rem 0.6rem;
+  text-transform: uppercase;
+  align-self: flex-start;
+}
+
+.subscribe-news .info a:hover {
+  text-decoration: none;
+  color: #ccc;
+}

@@ -802,3 +802,18 @@ header.bordered {
   right: -10px;
   top: 0;
 }
+
+/* Media Queries */
+
+@media (max-width: 767px) and (min-width: 576px) {
+  /* Main Content */
+
+  .more-stories-item .image,
+  .latest-news-item .image {
+    width: 258px;
+  }
+
+  .culture-item img {
+    height: 25rem;
+  }
+}

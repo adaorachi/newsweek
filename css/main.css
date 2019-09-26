@@ -805,6 +805,19 @@ header.bordered {
 
 /* Media Queries */
 
+@media (max-width: 992px) and (min-width: 768px) {
+  /* Main Content */
+
+  .section-one .third .last {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .section-five .aside img {
+    height: 80px;
+  }
+}
+
 @media (max-width: 767px) and (min-width: 576px) {
   /* Main Content */
 
@@ -818,16 +831,108 @@ header.bordered {
   }
 }
 
-@media (max-width: 992px) and (min-width: 768px) {
-  /* Main Content */
+@media screen and (max-width: 992px) {
+  /* General */
 
-  .section-one .third .last {
-    width: 40%;
-    margin: 0 auto;
+  .wrapper.container-fluid {
+    padding: 0;
   }
 
-  .section-five .aside img {
-    height: 80px;
+  /* Navigation Bar */
+
+  .header-top {
+    align-items: center;
+    padding: 0.6rem !important;
+  }
+
+  .header-top .header-links {
+    flex: 1;
+    flex-basis: auto;
+  }
+
+  .navbar-brand img {
+    width: 10rem;
+  }
+
+  .header-links .icons {
+    width: 2.5rem;
+  }
+
+  .icons .fa-bars,
+  .icons .fa-times {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+  }
+
+  .header-bottom {
+    padding: 0;
+  }
+
+  .icons .fa-times,
+  .header-bottom::before,
+  .header-bottom .navbar-nav {
+    display: none;
+  }
+
+  .navbar-nav .nav-item {
+    text-align: left;
+    line-height: 2rem;
+    padding: 0 1rem;
+    position: relative;
+    flex: initial;
+  }
+
+  .navbar-nav .nav-link::after {
+    content: ">";
+    position: absolute;
+    right: 1rem;
+  }
+
+  .navbar-nav .nav-link:hover::after {
+    color: #f72210;
+  }
+
+  .navbar-nav .nav-link {
+    border-right: none;
+  }
+
+  .navbar-nav .search-item {
+    order: -1;
+    position: relative;
+  }
+
+  .navbar-nav .nav-item:hover,
+  .navbar-nav .search-item:hover {
+    background-color: #000;
+  }
+
+  .navbar-nav .nav-link:hover,
+  .header-bottom .search-item:hover {
+    color: #fff;
+  }
+
+  .header-bottom .navbar-nav.open {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: flex-start;
+    position: absolute;
+    z-index: 999;
+    background-color: #fff;
+    right: 0;
+    width: 13rem;
+    min-height: 700px;
+    box-shadow: rgba(0, 0, 0, 0.1) -2px 0 2px;
+  }
+
+  /* Main Content */
+
+  .hero {
+    transform: translateY(0.23%);
+  }
+
+  .subscribe-news .sub {
+    margin-bottom: 2rem;
   }
 }
 

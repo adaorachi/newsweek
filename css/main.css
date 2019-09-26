@@ -735,3 +735,70 @@ header.bordered {
   text-decoration: none;
   color: #ccc;
 }
+
+/* Footer */
+
+.page-footer {
+  border-top: 2px solid #f4f5f6;
+  background-color: white;
+  padding: 30px;
+  font-family: Helvetica, sans-serif;
+}
+
+.page-footer .navbar-brand img {
+  width: 200px;
+}
+
+.page-footer .copyright {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.social-links .social-link i {
+  font-size: 1.5rem;
+  margin: 0 0.6rem;
+}
+
+.social-links .social-link i:hover {
+  color: #f72210;
+}
+
+.page-footer .footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 6px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #666;
+}
+
+.edition-menu {
+  margin-left: 1rem;
+}
+
+.menu-items .menu-link,
+.edition-menu .editor-link {
+  display: inline-block;
+  margin-right: 0.9rem;
+  line-height: 2rem;
+  position: relative;
+}
+
+.footer-edition label {
+  line-height: 2rem;
+}
+
+.menu-items .menu-link a:hover,
+.edition-menu .editor-link a:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu-items .menu-link:not(:last-child)::after,
+.edition-menu .editor-link:not(:last-child)::after {
+  content: "|";
+  position: absolute;
+  right: -10px;
+  top: 0;
+}

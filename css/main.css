@@ -817,3 +817,16 @@ header.bordered {
     height: 25rem;
   }
 }
+
+@media (max-width: 992px) and (min-width: 768px) {
+  /* Main Content */
+
+  .section-one .third .last {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .section-five .aside img {
+    height: 80px;
+  }
+}

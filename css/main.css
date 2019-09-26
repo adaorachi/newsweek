@@ -477,3 +477,27 @@ header.bordered {
   width: 63px;
   height: 63px;
 }
+
+/* Latest News Section */
+
+.latest-new {
+  margin-top: 2rem;
+}
+
+.latest-news-item {
+  padding: 0.5rem 0 0.2rem;
+}
+
+.latest-news-item:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+
+.latest-news-item .title:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.latest-news-item .image {
+  width: 8.5rem;
+  margin: 0 1rem 0 0;
+}

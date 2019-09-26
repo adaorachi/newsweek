@@ -13,31 +13,35 @@
   </head>
   <body>
     <div class="wrapper container-fluid">
-      <header class="navigation">
-        <nav class="navigation navbar navbar-expand-lg navbar-light">
-          <div class="header-top">
-            <div class="date">
-              <date>Fri, Sep 20, 2019</date>
-            </div>
-            <div class="logo">
-              <a class="navbar-brand" href="/">
-                <img src="images/logo5.png" width="400" alt="logo">
-              </a>
-            </div>
-            <div class="header-links">
-              <a href="#" class="sign-in"> <span>Sign In</span></a>
-              <a href="#" class="subscribe">
-                <span>Subscribe &nbsp; &nbsp;<i class="fas fa-chevron-right"></i></span>
-              </a>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
+      <div class="wrap bg-white">
+        <header class="navigation text-white">
+          <nav class="nav-bar">
+            <div class="header-top d-flex align-items-baseline pt-3 pb-2 px-4 w-100">
+              <div class="date d-none d-md-none d-lg-block">
+                <div>Fri, Sep 20, 2019</div>
+              </div>
+              <div class="logo">
+                <a class="navbar-brand" href="/">
+                  <img src="images/logo5.png" width="200" alt="logo" class="img-fluid">
+                </a>
+              </div>
+              <div class="header-links d-flex justify-content-end align-items-center text-uppercase font-weight-bold">
+                <a href="#" class="sign-in py-0 px-1 text-white">
+                  <span>Sign In</span>
+                </a>
+                <a href="#" class="subscribe py-0 px-1">
+                  <span class="bg-white border-0 px-2">Subscribe &nbsp; &nbsp;<i class="fas fa-chevron-right"></i></span>
+                </a>
+                <div class="icons d-inline py-0 px-1 d-none d-md-block d-lg-none">
+                  <i class="fas fa-bars"></i>
+                  <i class="fas fa-times"></i>
+                </div>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="header-bottom">
-              <ul class="navbar-nav mr-auto">
+              </div>
+            </div>
+
+            <div class="header-bottom w-100 d-block position-relative">
+              <ul class="navbar-nav flex-row py-2">
                 <li class="nav-item active">
                   <a class="nav-link" href="#">U.S <span class="sr-only">(current)</span></a>
                 </li>
@@ -68,317 +72,609 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Vantage</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item search-item">
                   <div class="search">
                     <span >Search <i class="fas fa-search"></i></span>
                   </div>
                 </li>
               </ul>
             </div>
-          </div>
-        </nav>
-      </header>
+          </nav>
+        </header>
 
-      <main>
-        <div class="container-fluid main-container">
-          <div class="row">
-            <div class="col">
-              <section class="section featured-stories">
-                <div class="featured-story">
-                  <header>
-                    <h2 class="heading">Featured Stories</h2>
-                  </header>
-                  <div class="feature-content">
-                    <article class="article">
-                      <div class="image">
-                        <a href="#">
-                          <img src="https://d.newsweek.com/en/full/1529326/how-watch-lgbtq-presidential-forum.jpg" alt="What to Expect From the LGBTQ Presidential Forum" width="397">
-                          <div class="category">
-                            <span class="cag">U.S.</span>
+        <div class="hero">
+          <main class="main">
+            <div class="container-fluid main-container">
+              <div class="section-one">
+                <div class="row">
+                  <div class="first col-lg-5 col-md-7 col-sm-12 order-md-2 d-flex flex-column">
+                    <section class="section top-story order-md-1 order-1">
+                      <div class="featured-story">
+                        <header>
+                          <h2 class="heading">Top Story</h2>
+                        </header>
+                        <div class="feature-content">
+                          <article class="article">
+                            <div class="image topstory">
+                              <a href="#">
+                                <img class="img-fluid" src="https://d.newsweek.com/en/full/1529183/donald-trump-meets-australian-pm-oval-office.jpg" alt="What to Expect From the LGBTQ Presidential Forum" width="397">
+                                <div class="category">
+                                  <span class="cag">U.S.</span>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="feature-title">
+                              <h3>
+                                <a href="#" class="title">Trump Suggests Whistleblower Is 'Partisan,'</a>
+                              </h3>
+                            </div>
+                            <div class="feature-summary">
+                              <p>Despite Not Knowing Person's Identity "I just hear it's a partisan person, meaning it comes out from another party," President Donald Trump told reporters in the Oval Office.</p>
+                            </div>
+                            <div class="feature-related">
+                              <ul class="feature-list">
+                                <li>
+                                  <a href="#" class="list-link">Watergate Attorney: Congress Has to 'Go All Out' on Whistleblower Complaint</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </article>
                         </div>
-                        </a>
                       </div>
-                      <div class="feature-title">
-                        <h3>
-                          <a href="#" class="title">What to Expect From the LGBTQ Presidential Forum</a>
-                        </h3>
-                      </div>
-                      <div class="feature-summary">
-                        <p>Friday night's LGBTQ presidential forum is the first one of its kind since 2007. Every Democratic frontrunner except Senator Bernie Sanders will be in attendance.</p>
-                      </div>
-                      <div class="feature-related">
-                        <ul class="feature-list">
-                          <li>
-                            <a href="#" class="list-link">NYC Mayor Bill de Blasio Drops Out of Presidential Race</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </article>
-                  </div>
-                  <div class="feature-content">
-                    <article class="article">
-                      <div class="image">
-                        <a href="#">
-                          <img src="https://d.newsweek.com/en/full/1529290/saudi-arabia-oil-field-attack.jpg" alt="Saudi King Vows Action After Attacks, as Iran Threatens Regional Retaliation" width="397">
-                          <div class="category">
-                            <span class="cag">World</span>
-                        </div>
-                        </a>
-                      </div>
-                      <div class="feature-title">
-                        <h3>
-                          <a href="#" class="title">Saudi King Vows Action After Attacks, as Iran Threatens Regional Retaliation</a>
-                        </h3>
-                      </div>
-                      <div class="feature-summary">
-                        <p>"If the Americans think of any conspiracy, we will respond from the Mediterranean to the Red Sea to the Indian Ocean," a top Iranian military official said.</p>
-                      </div>
-                    </article>
-                  </div>
-                  <div class="feature-content">
-                    <article class="article">
-                      <div class="image">
-                        <a href="#">
-                          <img src="https://d.newsweek.com/en/full/1528794/james-cameron.jpg" alt="James Cameron: Our So-Called Civilization Is Using the Ocean as Its Toilet" width="397">
-                          <div class="category">
-                            <span class="cag">Tech & Science</span>
+                    </section>
+
+                    <section class="section culture-travel order-md-2 order-3">
+                      <div class="culture-story">
+                        <header>
+                          <h2 class="heading">Culture & Travel</h2>
+                        </header>
+                        <div class="culture-items">
+                          <div class="row">
+                            <div class="col-12 col-md-6">
+                              <div class="culture-item">
+                                <div class="image">
+                                  <a href="#">
+                                    <img class="img-fluid" src="https://d.newsweek.com/en/full/1529195/nobody-told-me.jpg" alt="9 Best Cocktail Bars in New York" width="397">
+                                  </a>
+                                </div>
+                                <div class="culture-info">
+                                  <div class="title">
+                                    <a href="#" class="title-link">
+                                      <h5>9 Best Cocktail Bars in New York</h5>
+                                    </a>
+                                  </div>
+                                  <div class="summary">
+                                    <p>The Big Apple cocktail scene has never been less pretentious—and more expansive—than it is right now.</p>
+                                  </div>
+                                  <div class="tag">
+                                    <a href="#" class="tag-link">
+                                      <span>Cocktails</span>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                              <div class="culture-item">
+                                <div class="image">
+                                  <a href="#">
+                                    <img class="img-fluid" src="https://d.newsweek.com/en/full/1395614/qatar-airways.jpg" alt="Hadestown's Andre De Shields Talks Diversity on Broadway" width="397">
+                                  </a>
+                                </div>
+                                <div class="culture-info">
+                                  <div class="title">
+                                    <a href="#" class="title-link">
+                                      <h5>The World's Best Airlines, Ranked</h5>
+                                    </a>
+                                  </div>
+                                  <div class="summary">
+                                    <p>For best airline overall, Asian and Middle Eastern airlines triumphed.</p>
+                                  </div>
+                                  <div class="tag">
+                                    <a href="#" class="tag-link">
+                                      <span>Broadway</span>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                              <div class="culture-item">
+                                <div class="image">
+                                  <a href="#">
+                                    <img class="img-fluid" src="https://d.newsweek.com/en/full/1528024/downton-abbey.png" alt="Real-life Downton Abbey Available on Airbnb For Under $190 a Night" width="397">
+                                  </a>
+                                </div>
+                                <div class="culture-info">
+                                  <div class="title">
+                                    <a href="#" class="title-link">
+                                      <h5>Real-life Downton Abbey Available on Airbnb For Under $190 a Night</h5>
+                                    </a>
+                                  </div>
+                                  <div class="summary">
+                                    <p>"Lord and Lady Carnarvon will welcome guests into their home on arrival, and after settling them into their bedroom, will ask the guests to join them for cocktails before dinner."</p>
+                                  </div>
+                                  <div class="tag">
+                                    <a href="#" class="tag-link">
+                                      <span>Downton abbey</span>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                              <div class="culture-item">
+                                <div class="image">
+                                  <a href="#">
+                                    <img class="img-fluid" src="https://d.newsweek.com/en/full/1524036/produce-farmers-market.jpg" alt="How to Succeed at a French Farmers' Market" width="397">
+                                  </a>
+                                </div>
+                                <div class="culture-info">
+                                  <div class="title">
+                                    <a href="#" class="title-link">
+                                      <h5>How to Succeed at a French Farmers' Market</h5>
+                                    </a>
+                                  </div>
+                                  <div class="summary">
+                                    <p>Follow these tips from "Cook Like a Local in France" to win at the market every time.</p>
+                                  </div>
+                                  <div class="tag">
+                                    <a href="#" class="tag-link">
+                                      <span>France</span>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
                           </div>
-                        </a>
+                        </div>
                       </div>
-                      <div class="feature-title">
-                        <h3>
-                          <a href="#" class="title">James Cameron: Our So-Called Civilization Is Using the Ocean as Its Toilet</a>
-                        </h3>
-                      </div>
-                      <div class="feature-summary">
-                        <p>The director said deep sea research is "shamefully underfunded" and called for a "global fleet of swarm robotics" to study Earth's oceans.</p>
-                      </div>
-                    </article>
-                  </div>
-                  <div class="feature-content">
-                    <article class="article">
-                      <div class="image">
-                        <a href="#">
-                          <img src="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png" alt="Best Online Shops 2020" width="397">
-                          <div class="category">
-                            <span class="cag">Survey</span>
+                    </section>
+
+                    <section class="section more-story order-md-3 order-2">
+                      <div class="more-stories">
+                        <header>
+                          <h2 class="heading">More Stories</h2>
+                        </header>
+                        <div class="more-stories-items">
+                          <div class="more-stories-item clearfix">
+                            <div class="image float-left">
+                              <a href="#">
+                                <img class="img-fluid" src="https://d.newsweek.com/en/full/1529877/donald-trump-egypt-press-nyt-reporter-arrest.jpg" alt="Trump Administration Ignored Threats to U.S. Journalists in Egypt: Report" width="80">
+                              </a>
+                            </div>
+                            <div class="content">
+                              <div class="feature-title">
+                                <h3>
+                                  <a href="#" class="title">Trump Administration Ignored Threats to U.S. Journalists in Egypt: Report</a>
+                                </h3>
+                              </div>
+                              <div class="feature-summary">
+                                <p>The New York Times said it was forced to turn to Ireland to help one of its reporters escape imminent arrest in Egypt, because the Trump administration failed to act.</p>
+                              </div>
+                            </div>
                           </div>
-                        </a>
-                      </div>
-                      <div class="feature-title">
-                        <h3>
-                          <a href="#" class="title">Best Online Shops 2020</a>
-                        </h3>
-                      </div>
-                      <div class="feature-summary">
-                        <p>Where should customers go for the best products, prices and service? We ranked the top 1,000 shops across eight industries and 39 categories.</p>
-                      </div>
-                    </article>
-                  </div>
-                  <div class="feature-content info">
-                    <article class="article">
-                      <div class="image">
-                        <a href="#">
-                          <img src="https://d.newsweek.com/en/full/1519897/university-pretoria.jpg" alt="Why You Should Be An Engineer & Why ABET Is Important to that Path." width="397">
-                          <div class="category">
-                            <span>Sponsored Insight</span>
+
+                          <div class="more-stories-item clearfix">
+                            <div class="image float-left">
+                              <a href="#">
+                                <img class="img-fluid" src="https://d.newsweek.com/en/full/1529526/iran-mohammad-javad-zarif-new-york.jpg" alt="Iran to Call for 'Coalition for Hope' to Secure Region, Avoid War with U.S." width="80">
+                              </a>
+                            </div>
+                            <div class="content">
+                              <div class="feature-title">
+                                <h3>
+                                  <a href="#" class="title">Iran to Call for 'Coalition for Hope' to Secure Region, Avoid War with U.S.</a>
+                                </h3>
+                              </div>
+                              <div class="feature-summary">
+                                <p>Iran's upcoming "Hormuz Peace Endeavor" would include an invitation for potential cooperation with Saudi Arabia as a gesture to work together in the world's most important maritime oil chokepoint.</p>
+                              </div>
+                            </div>
                           </div>
-                        </a>
-                      </div>
-                      <div class="border">
-                        <div class="feature-title">
-                          <h3>
-                            <a href="#" class="title">Why You Should Be An Engineer & Why ABET Is Important to that Path.</a>
-                          </h3>
-                        </div>
-                        <div class="feature-summary">
-                          <p>Do you dream of changing the world? Do you want to make a practical difference in people’s lives? Engineers do both these things. Find out how to join them.</p>
-                        </div>
-                      </div>
-                    </article>
-                  </div>
-                  <div class="feature-content info">
-                    <article class="article">
-                      <div class="image">
-                        <a href="#">
-                          <img src="https://d.newsweek.com/en/full/1517093/bookdoc.jpg" alt="Why You Should Be An Engineer & Why ABET Is Important to that Path." width="397">
-                          <div class="category">
-                            <span>Sponsored Insight</span>
+
+                          <div class="more-stories-item clearfix">
+                            <div class="image float-left">
+                              <a href="#">
+                                <img class="img-fluid" src="https://d.newsweek.com/en/full/729497/rtsq9dy.jpg" alt="Tropical Storm Karen Could Bring Heavy Wind, Rain to Puerto Rico" width="80">
+                              </a>
+                            </div>
+                            <div class="content">
+                              <div class="feature-title">
+                                <h3>
+                                  <a href="#" class="title">Woman Raped By Brock Turner Found Out About Her Attack by Reading It Online</a>
+                                </h3>
+                              </div>
+                              <div class="feature-summary">
+                                <p>Survivor Chanel Miller spoke out about her ordeal ahead of the upcoming release of her memoir "Know My Name."</p>
+                              </div>
+                            </div>
                           </div>
-                        </a>
-                      </div>
-                      <div class="border">
-                        <div class="feature-title">
-                          <h3>
-                            <a href="#" class="title">Infertility - A look at the leading clinics in the field</a>
-                          </h3>
+
+                          <div class="more-stories-item clearfix">
+                            <div class="image float-left">
+                              <a href="#">
+                                <img class="img-fluid" src="https://d.newsweek.com/en/full/1529556/second-amendment-supporter-rally.jpg" alt="Sheriff Proposes 'Sanctuary County' That Won't Enforce Federal Gun Laws" width="80">
+                              </a>
+                            </div>
+                            <div class="content">
+                              <div class="feature-title">
+                                <h3>
+                                  <a href="#" class="title">Sheriff Proposes 'Sanctuary County' That Won't Enforce Federal Gun Laws</a>
+                                </h3>
+                              </div>
+                              <div class="feature-summary">
+                                <p>This would mean the district would not spend money or resources enforcing federal laws Roger Deeds believes are an infringement of residents' constitutional right to keep and bear arms.</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="more-stories-item clearfix">
+                            <div class="image float-left">
+                              <a href="#">
+                                <img class="img-fluid" src="https://d.newsweek.com/en/full/1529540/trump-tower.jpg" alt="Thieves Steal More than $350,000 in Jewelry from Trump Tower" width="80">
+                              </a>
+                            </div>
+                            <div class="content">
+                              <div class="feature-title">
+                                <h3>
+                                  <a href="#" class="title">Thieves Steal More than $350,000 in Jewelry from Trump Tower</a>
+                                </h3>
+                              </div>
+                              <div class="feature-summary">
+                                <p>The president arrived at the skyscraper on Sunday ahead of an address at the United Nations on Tuesday.</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="more-stories-item clearfix">
+                            <div class="image float-left">
+                              <a href="#">
+                                <img class="img-fluid" src="https://d.newsweek.com/en/full/1529543/iss.jpg" alt="Russia Won't Tell NASA What Caused Mystery Leak on ISS" width="80">
+                              </a>
+                            </div>
+                            <div class="content">
+                              <div class="feature-title">
+                                <h3>
+                                  <a href="#" class="title">Russia Won't Tell NASA What Caused Mystery Leak on ISS</a>
+                                </h3>
+                              </div>
+                              <div class="feature-summary">
+                                <p>Roscosmos had previously suggested a man-made hole in the Soyuz spacecraft caused an air leak on board the International Space Station in August 2018.</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="more-stories-item clearfix">
+                            <div class="image float-left">
+                              <a href="#">
+                                <img class="img-fluid" src="https://d.newsweek.com/en/full/1529541/tropical-storm-imelda-flooding.jpg" alt="Drone Captures Coffins Floating in Texas Cemetery After Imelda Flooding" width="80">
+                              </a>
+                            </div>
+                            <div class="content">
+                              <div class="feature-title">
+                                <h3>
+                                  <a href="#" class="title">Drone Captures Coffins Floating in Texas Cemetery After Imelda Flooding</a>
+                                </h3>
+                              </div>
+                              <div class="feature-summary">
+                                <p>The tropical storm brought more than 40 inches of rain some parts of southeastern Texas, producing record-breaking floods.</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="more-stories-item clearfix">
+                            <div class="image float-left">
+                              <a href="#">
+                                <img class="img-fluid" src="https://d.newsweek.com/en/full/1529510/transgender-hysterectomy-dignity-health.jpg" alt="Court Rules Transgender Man Can Sue Hospital for Canceling Surgery" width="80">
+                              </a>
+                            </div>
+                            <div class="content">
+                              <div class="feature-title">
+                                <h3>
+                                  <a href="#" class="title">Court Rules Transgender Man Can Sue Hospital for Canceling Surgery</a>
+                                </h3>
+                              </div>
+                              <div class="feature-summary">
+                                <p>Two days before Evan Minton was scheduled to have a hysterectomy, Mercy San Juan Medical Center canceled the procedure, because it was "part of a course of treatment for gender dysphoria."</p>
+                              </div>
+                            </div>
+                          </div>
+
                         </div>
-                        <div class="feature-summary">
-                          <p>There can be family related, culturally linked, and even political reasons why prospective parents face significant challenges seeking conception treatment. Who can they turn to?</p>
+                      </div>
+                    </section>
+                  </div>
+
+                  <div class="second col-lg col-md-5 col-sm-12 order-md-1">
+                    <section class="section featured-stories">
+                      <div class="featured-story">
+                        <header>
+                          <h2 class="heading">Featured Stories</h2>
+                        </header>
+                        <div class="feature-content">
+                          <article class="article">
+                            <div class="image">
+                              <a href="#">
+                                <img class="img-fluid" src="https://d.newsweek.com/en/full/1529326/how-watch-lgbtq-presidential-forum.jpg" alt="What to Expect From the LGBTQ Presidential Forum" width="397">
+                                <div class="category">
+                                  <span class="cag">U.S.</span>
+                              </div>
+                              </a>
+                            </div>
+                            <div class="feature-title">
+                              <h3>
+                                <a href="#" class="title">What to Expect From the LGBTQ Presidential Forum</a>
+                              </h3>
+                            </div>
+                            <div class="feature-summary">
+                              <p>Friday night's LGBTQ presidential forum is the first one of its kind since 2007. Every Democratic frontrunner except Senator Bernie Sanders will be in attendance.</p>
+                            </div>
+                            <div class="feature-related">
+                              <ul class="feature-list">
+                                <li>
+                                  <a href="#" class="list-link">NYC Mayor Bill de Blasio Drops Out of Presidential Race</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </article>
+                        </div>
+                        <div class="feature-content">
+                          <article class="article">
+                            <div class="image">
+                              <a href="#">
+                                <img class="img-fluid" src="https://d.newsweek.com/en/full/1529290/saudi-arabia-oil-field-attack.jpg" alt="Saudi King Vows Action After Attacks, as Iran Threatens Regional Retaliation" width="397">
+                                <div class="category">
+                                  <span class="cag">World</span>
+                              </div>
+                              </a>
+                            </div>
+                            <div class="feature-title">
+                              <h3>
+                                <a href="#" class="title">Saudi King Vows Action After Attacks, as Iran Threatens Regional Retaliation</a>
+                              </h3>
+                            </div>
+                            <div class="feature-summary">
+                              <p>"If the Americans think of any conspiracy, we will respond from the Mediterranean to the Red Sea to the Indian Ocean," a top Iranian military official said.</p>
+                            </div>
+                          </article>
+                        </div>
+                        <div class="feature-content">
+                          <article class="article">
+                            <div class="image">
+                              <a href="#">
+                                <img class="img-fluid" src="https://d.newsweek.com/en/full/1528794/james-cameron.jpg" alt="James Cameron: Our So-Called Civilization Is Using the Ocean as Its Toilet" width="397">
+                                <div class="category">
+                                  <span class="cag">Tech & Science</span>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="feature-title">
+                              <h3>
+                                <a href="#" class="title">James Cameron: Our So-Called Civilization Is Using the Ocean as Its Toilet</a>
+                              </h3>
+                            </div>
+                            <div class="feature-summary">
+                              <p>The director said deep sea research is "shamefully underfunded" and called for a "global fleet of swarm robotics" to study Earth's oceans.</p>
+                            </div>
+                          </article>
+                        </div>
+                        <div class="feature-content">
+                          <article class="article">
+                            <div class="image">
+                              <a href="#">
+                                <img class="img-fluid" src="https://d.newsweek.com/en/full/1529509/nancy-pelosi.jpg" alt="Best Online Shops 2020" width="397">
+                                <div class="category">
+                                  <span class="cag">Politics</span>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="feature-title">
+                              <h3>
+                                <a href="#" class="title">Pelosi: Blocking Whistleblower Complaint a 'New Chapter of Lawlessness'</a>
+                              </h3>
+                            </div>
+                            <div class="feature-summary">
+                              <p>"The Inspector General determined that the matter is 'urgent' and therefore we face an emergency that must be addressed immediately," the Speaker of the House wrote in an open letter to her colleagues on Capitol Hill.</p>
+                            </div>
+                          </article>
+                        </div>
+                        <div class="feature-content info">
+                          <article class="article">
+                            <div class="image">
+                              <a href="#">
+                                <img class="img-fluid" src="https://d.newsweek.com/en/full/1519897/university-pretoria.jpg" alt="Why You Should Be An Engineer & Why ABET Is Important to that Path." width="397">
+                                <div class="category">
+                                  <span>Sponsored Insight</span>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="border">
+                              <div class="feature-title">
+                                <h3>
+                                  <a href="#" class="title">Why You Should Be An Engineer & Why ABET Is Important to that Path.</a>
+                                </h3>
+                              </div>
+                              <div class="feature-summary">
+                                <p>Do you dream of changing the world? Do you want to make a practical difference in people’s lives? Engineers do both these things. Find out how to join them.</p>
+                              </div>
+                            </div>
+                          </article>
+                        </div>
+                        <div class="feature-content info">
+                          <article class="article">
+                            <div class="image">
+                              <a href="#">
+                                <img class="img-fluid" src="https://d.newsweek.com/en/full/1515367/pfc-prague-fertility-center.jpg" alt="Why You Should Be An Engineer & Why ABET Is Important to that Path." width="397">
+                                <div class="category">
+                                  <span>Sponsored Insight</span>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="border">
+                              <div class="feature-title">
+                                <h3>
+                                  <a href="#" class="title">Infertility - A look at the leading clinics in the field</a>
+                                </h3>
+                              </div>
+                              <div class="feature-summary">
+                                <p>There can be family related, culturally linked, and even political reasons why prospective parents face significant challenges seeking conception treatment. Who can they turn to?</p>
+                              </div>
+                            </div>
+                          </article>
                         </div>
                       </div>
-                    </article>
+                    </section>
+                  </div>
+
+                  <div class="third col-lg col-md-12 col-sm-12 order-md-3">
+                    <section class="section opinion">
+                      <div class="opinions">
+                        <header>
+                          <h2 class="heading">Opinion</h2>
+                        </header>
+                        <div class="opinion-items">
+                          <ul class="opinion-item d-flex flex-column">
+                            <li class="opinion-list d-flex justify-content-start">
+                              <div class="image headshot">
+                                <a href="#">
+                                  <img src="https://d.newsweek.com/en/full/1506965/charlie-kirk.png" alt="BY CHARLIE KIRK" width="50" class="img-fluid rounded-circle">
+                                </a>
+                              </div>
+                              <div class="info">
+                                <div class="opinion-title">
+                                  <h3>
+                                    <a href="#" class="title">Meet Elizabeth Warren, Philosopher Queen</a>
+                                  </h3>
+                                </div>
+                                <div class="author">
+                                  <span>BY CHARLIE KIRK</span>
+                                </div>
+                              </div>
+                            </li>
+
+                            <li class="opinion-list d-flex justify-content-start">
+                              <div class="image headshot">
+                                <a href="#">
+                                  <img src="https://d.newsweek.com/en/full/1529329/david-l-roll.png" alt="BY DAVID L. ROLL" width="50" class="img-fluid rounded-circle">
+                                </a>
+                              </div>
+                              <div class="info">
+                                <div class="opinion-title">
+                                  <h3>
+                                    <a href="#" class="title"> David L. RollDoes Jim Mattis Have a Duty to Criticize Donald Trump?</a>
+                                  </h3>
+                                </div>
+                                <div class="author">
+                                  <span>BY DAVID L. ROLL</span>
+                                </div>
+                              </div>
+                            </li>
+
+                            <li class="opinion-list d-flex justify-content-start">
+                              <div class="image headshot">
+                                <a href="#">
+                                  <img src="https://d.newsweek.com/en/full/1529375/william-t-dickens-robert-k-triest.png" alt="BY WILLIAM T. DICKENS AND ROBERT K. TRIEST" width="50" class="img-fluid rounded-circle">
+                                </a>
+                              </div>
+                              <div class="info">
+                                <div class="opinion-title">
+                                  <h3>
+                                    <a href="#" class="title">This Money Market Madness Looks Like a Bad Sign for the Economy. It Isn't</a>
+                                  </h3>
+                                </div>
+                                <div class="author">
+                                  <span>BY WILLIAM T. DICKENS AND ROBERT K. TRIEST</span>
+                                </div>
+                              </div>
+                            </li>
+
+                            <li class="opinion-list d-flex justify-content-start">
+                              <div class="image headshot">
+                                <a href="#">
+                                  <img src="https://d.newsweek.com/en/full/1528901/nyiesha-mallet-asli-mwaafrika.png" alt="BY NYIESHA MALLET AND ASLI MWAAFRIKA" width="50" class="img-fluid rounded-circle">
+                                </a>
+                              </div>
+                              <div class="info">
+                                <div class="opinion-title">
+                                  <h3>
+                                    <a href="#" class="title">Want to Fight Climate Change? Listen to Young People of Color</a>
+                                  </h3>
+                                </div>
+                                <div class="author">
+                                  <span>BY NYIESHA MALLET AND ASLI MWAAFRIKA</span>
+                                </div>
+                              </div>
+                            </li>
+
+                            <li class="opinion-list d-flex justify-content-start">
+                              <div class="image headshot">
+                                <a href="#">
+                                  <img src="https://d.newsweek.com/en/full/106454/anthony-harwood.png" alt="BY ANTHONY HARWOOD" width="50" class="img-fluid rounded-circle">
+                                </a>
+                              </div>
+                              <div class="info">
+                                <div class="opinion-title">
+                                  <h3>
+                                    <a href="#" class="title">America Looks Away From the Suffering in Yemen—Until Oil Is at Stake</a>
+                                  </h3>
+                                </div>
+                                <div class="author">
+                                  <span>BY ANTHONY HARWOOD</span>
+                                </div>
+                              </div>
+                            </li>
+
+                            <li class="opinion-list d-flex justify-content-start">
+                              <div class="image headshot">
+                                <a href="#">
+                                  <img src="https://d.newsweek.com/en/full/1529047/barber-theoharis.png" alt="BY WILLIAM BARBER AND LIZ THEOHARIS" width="50" class="img-fluid rounded-circle">
+                                </a>
+                              </div>
+                              <div class="info">
+                                <div class="opinion-title">
+                                  <h3>
+                                    <a href="#" class="title">By Striking for the Climate, We're Striking Against Poverty and Racism Too</a>
+                                  </h3>
+                                </div>
+                                <div class="author">
+                                  <span>BY WILLIAM BARBER AND LIZ THEOHARIS</span>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </section>
+
                   </div>
                 </div>
-              </section>
-            </div>
-            <div class="col-5">
-              <section class="section top-story">
-                <div class="featured-story">
-                  <header>
-                    <h2 class="heading">Top Story</h2>
-                  </header>
-                  <div class="feature-content">
-                    <article class="article">
-                      <div class="image">
-                        <a href="#">
-                          <img src="https://d.newsweek.com/en/full/1529183/donald-trump-meets-australian-pm-oval-office.jpg" alt="What to Expect From the LGBTQ Presidential Forum" width="397">
-                          <div class="category">
-                            <span class="cag">U.S.</span>
-                          </div>
-                        </a>
-                      </div>
-                      <div class="feature-title">
-                        <h3>
-                          <a href="#" class="title">Trump Suggests Whistleblower Is 'Partisan,'</a>
-                        </h3>
-                      </div>
-                      <div class="feature-summary">
-                        <p>Despite Not Knowing Person's Identity "I just hear it's a partisan person, meaning it comes out from another party," President Donald Trump told reporters in the Oval Office.</p>
-                      </div>
-                      <div class="feature-related">
-                        <ul class="feature-list">
-                          <li>
-                            <a href="#" class="list-link">Watergate Attorney: Congress Has to 'Go All Out' on Whistleblower Complaint</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </article>
-                  </div>
-                </div>
-              </section>
+              </div>
 
-              <section class="section culture-travel">
-                <div class="culture-story">
-                  <header>
-                    <h2 class="heading">Culture & Travel</h2>
-                  </header>
-                  <div class="culture-items">
-                    <div class="row">
-                      <div class="col-6">
-                        <div class="culture-item">
-                          <div class="image">
-                            <a href="#">
-                              <img src="https://d.newsweek.com/en/full/1529195/nobody-told-me.jpg" alt="9 Best Cocktail Bars in New York" width="397">
-                            </a>
-                          </div>
-                          <div class="culture-info">
-                            <div class="title">
-                              <a href="#" class="title-link">
-                                <h5>9 Best Cocktail Bars in New York</h5>
-                              </a>
-                            </div>
-                            <div class="summary">
-                              <p>The Big Apple cocktail scene has never been less pretentious—and more expansive—than it is right now.</p>
-                            </div>
-                            <div class="tag">
-                              <a href="#" class="tag-link">
-                                <span>Cocktails</span>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6">
-                        <div class="culture-item">
-                          <div class="image">
-                            <a href="#">
-                              <img src="https://d.newsweek.com/en/full/1523988/partingshot-andredeshields.jpg" alt="Hadestown's André De Shields Talks Diversity on Broadway" width="397">
-                            </a>
-                          </div>
-                          <div class="culture-info">
-                            <div class="title">
-                              <a href="#" class="title-link">
-                                <h5>Hadestown's André De Shields Talks Diversity on Broadway</h5>
-                              </a>
-                            </div>
-                            <div class="summary">
-                              <p>"There is no one like you. There has never been anyone like you. There shall never be anyone like you. Therefore, know thyself; be thyself."</p>
-                            </div>
-                            <div class="tag">
-                              <a href="#" class="tag-link">
-                                <span>Broadway</span>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6">
-                        <div class="culture-item">
-                          <div class="image">
-                            <a href="#">
-                              <img src="https://d.newsweek.com/en/full/1528024/downton-abbey.png" alt="Real-life Downton Abbey Available on Airbnb For Under $190 a Night" width="397">
-                            </a>
-                          </div>
-                          <div class="culture-info">
-                            <div class="title">
-                              <a href="#" class="title-link">
-                                <h5>Real-life Downton Abbey Available on Airbnb For Under $190 a Night</h5>
-                              </a>
-                            </div>
-                            <div class="summary">
-                              <p>"Lord and Lady Carnarvon will welcome guests into their home on arrival, and after settling them into their bedroom, will ask the guests to join them for cocktails before dinner."</p>
-                            </div>
-                            <div class="tag">
-                              <a href="#" class="tag-link">
-                                <span>Downton abbey</span>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6">
-                        <div class="culture-item">
-                          <div class="image">
-                            <a href="#">
-                              <img src="https://d.newsweek.com/en/full/1524036/produce-farmers-market.jpg" alt="How to Succeed at a French Farmers' Market" width="397">
-                            </a>
-                          </div>
-                          <div class="culture-info">
-                            <div class="title">
-                              <a href="#" class="title-link">
-                                <h5>How to Succeed at a French Farmers' Market</h5>
-                              </a>
-                            </div>
-                            <div class="summary">
-                              <p>Follow these tips from "Cook Like a Local in France" to win at the market every time.</p>
-                            </div>
-                            <div class="tag">
-                              <a href="#" class="tag-link">
-                                <span>France</span>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-              </section>
             </div>
-            <div class="col">
-              <h1>me</h1>
-            </div>
-          </div>
+          </main>
         </div>
-      </main>
+      </div>
     </div>
-
-
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script>
+      $( document ).ready(function() {
+        $('.fa-bars').on('click', function(){
+          $(this).hide();
+          $('.fa-times').show();
+          $('.header-bottom .navbar-nav').addClass('open');
+        })
+
+        $('.fa-times').on('click', function(){
+          $(this).hide();
+          $('.fa-bars').show();
+          $('.header-bottom .navbar-nav').removeClass('open');;
+        })
+      });
+    </script>
   </body>
 </html>

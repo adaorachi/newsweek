@@ -928,7 +928,7 @@ header.bordered {
   /* Main Content */
 
   .hero {
-    transform: translateY(0.23%);
+    transform: translateY(0.6%);
   }
 
   .subscribe-news .sub {
@@ -938,6 +938,9 @@ header.bordered {
 
 @media screen and (max-width: 767px) {
   /* Main Content */
+  .hero {
+    transform: translateY(0.23%);
+  }
 
   .featured-story .image,
   .featured-stories .image,
